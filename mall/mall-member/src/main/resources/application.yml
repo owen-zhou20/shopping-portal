@@ -2,7 +2,7 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://192.168.56.10/mall_pms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+    url: jdbc:mysql://192.168.56.10/mall_ums?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis-plus:
@@ -11,4 +11,5 @@ mybatis-plus:
     db-config:
       id-type: auto
 server:
-  port: 10000
+  port: 8000
+
